@@ -1,0 +1,720 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p,
+h2,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+.container1,
+.trust_container,
+.cards,
+.prices,
+.quotes,
+.work-page,
+.features,
+.contact-form {
+  padding: 0 120px 0 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.navMobile {
+  display: none;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 2.4rem;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.logo {
+  max-width: 6rem;
+  max-height: 6rem;
+}
+
+.btn {
+  background-color: #0cf;
+  padding: 0.8rem 3.2rem;
+  border-radius: 0.8rem;
+  color: #fff;
+  border: none;
+  height: 56px;
+  width: 15rem;
+  font-size: 2rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.container1 {
+  display: flex;
+  padding-top: 8rem;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 4.8rem;
+}
+
+.image-container {
+  height: 42rem;
+}
+
+.pic-home {
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+}
+
+h1 {
+  font-size: 6.4rem;
+  margin: 0;
+}
+
+.contents p {
+  font-size: 2.4rem;
+  margin: 0;
+  font-weight: 500;
+  color: gray;
+}
+
+.btn2 {
+  background-color: white;
+  color: #000;
+}
+
+.btn1,
+.btn2 {
+  width: 22rem;
+  align-items: center;
+  margin: 0;
+}
+
+/* -----------Trust section----------- */
+.company-logo-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.pic {
+  height: 8rem;
+  width: 20rem;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-size: 3.2rem;
+}
+
+.pic3,
+.pic4 {
+  width: 17rem;
+  height: 10rem;
+}
+
+.pic2 {
+  padding: 0;
+  height: 10rem;
+}
+
+/* ------------------ Cards--------------- */
+.cards {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 0.8rem;
+  padding: 1.6rem;
+}
+
+.card-img {
+  border-radius: 0.8rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-contents h2 {
+  font-size: 2.4rem;
+  padding-top: 2.4rem;
+}
+
+.card-contents p h2,
+.btn {
+  margin: 0;
+}
+
+.card-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.card-contents .btn {
+  width: 100%;
+}
+
+.card-contents p {
+  font-size: 1.8rem;
+  padding-top: 0.8rem;
+  line-height: 2.4rem;
+}
+
+/* ============Pricing=========== */
+
+.prices {
+  padding-top: 12rem;
+}
+
+#price-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 7.2rem;
+}
+
+.price-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 0.8rem;
+  border-radius: 0.8rem;
+  width: 384px;
+  height: 39.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.6rem;
+}
+
+.price-card .btn {
+  background-color: #e0e0ec;
+  color: black;
+  font-size: 1.8rem;
+  cursor: pointer;
+  width: 85%;
+  margin-left: 3.2rem;
+  margin-right: 2.8rem;
+}
+
+.price-card2 .btn {
+  background-color: white;
+}
+
+.price-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 3.2rem 2.4rem;
+}
+
+.price-card2 {
+  height: 44rem;
+  background-color: #006e8a;
+  color: #fff;
+}
+
+span {
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: normal;
+}
+
+.price-content p {
+  font-size: 1.8rem;
+}
+
+.ok {
+  height: 1.5rem;
+  width: 2rem;
+}
+
+/* ----------------Quote------------ */
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.8rem;
+  gap: 1.5rem;
+}
+
+.roung-image {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+}
+
+.job {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+.quote {
+  font-weight: 600;
+  font-size: 5.3rem;
+}
+
+/* ---Page main content with images-- */
+
+.work-picture {
+  padding: 0;
+}
+
+.contain-items {
+  padding: 13.3rem 0 13.2rem 0;
+  line-height: 3.6rem;
+}
+
+.content-image {
+  border-radius: 0.8rem;
+  height: 100%;
+}
+
+/* ---------Feature Row */
+
+.features {
+  display: flex;
+  gap: 2rem;
+  padding: 3.2rem 6rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3.2rem;
+  text-align: center;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.img-container {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+/* -------------Contact------------ */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 73rem;
+}
+
+.form-container {
+  background-color: #006e8a;
+  width: 50%;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+}
+
+.form-head {
+  text-align: center;
+  padding: 2rem;
+}
+
+.form-container input {
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1.6rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.names {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.email-wrapper,
+.text-wrapper,
+.names,
+.btn-wrapper {
+  width: 60%;
+  border-radius: 0.8rem;
+}
+
+.input-textarea {
+  padding: 1rem 6rem 6rem 1rem;
+  border-radius: 0.8rem;
+  resize: none;
+  border: none;
+  font-size: 1.4rem;
+}
+
+.form-controler {
+  width: 100%;
+}
+
+.label1 {
+  font-size: 1.8rem;
+  padding: 2rem 2rem 0 0;
+}
+
+.btn-wrapper {
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.submit-button {
+  padding: 0.8rem 3.2rem;
+  color: #fff;
+  background-color: #0cf;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* ------------footer--------- */
+
+.footer {
+  background: #0f2930;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 6.4rem 12rem;
+}
+
+.icons {
+  display: flex;
+  gap: 37px;
+  flex-direction: column;
+  padding: 0.8rem;
+  align-items: center;
+}
+
+.icon {
+  padding-left: 2.5rem;
+}
+
+.links {
+  display: flex;
+  gap: 8rem;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+}
+
+.aboutus a {
+  color: white;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.btn-footer {
+  background-color: white;
+  padding: 2.6rem 3.2rem 1.6rem 2.4rem;
+  color: black;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* ------------Mobile Version-------------- */
+
+@media (max-width: 500px) {
+  body {
+    background-color: lightcyan;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .head {
+    padding: 1.2rem 2.4rem 0 2.4rem;
+  }
+
+  /* -----2nd part------ */
+  .container1 {
+    flex-wrap: wrap;
+    padding: 1.6rem 3.2rem;
+    padding-bottom: 0;
+  }
+
+  .contents p {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .pic-home {
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .image-container {
+    height: 25.7rem;
+  }
+
+  /* -------Trust section-------- */
+  .trust_container {
+    padding: 3.2rem 1.6rem;
+    text-align: center;
+  }
+
+  .company-logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* -------Cards section-------- */
+  .cards {
+    flex-direction: column;
+    padding: 3.2rem 1.6rem;
+  }
+
+  .card {
+    padding: 3.2rem 1.6rem;
+  }
+
+  /* -------Pricing  section-------- */
+
+  .prices {
+    padding: 4.8rem 1.6rem;
+  }
+
+  #price-cards {
+    flex-direction: column;
+    gap: 4.8rem;
+    padding: 4.8rem;
+  }
+
+  .price-card {
+    padding: 2.4rem 2.4rem;
+  }
+
+  /* -------Quote-------- */
+
+  .quotes {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .quote {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  /* ------------------Content with images ------------------- */
+  .work-page {
+    padding: 1.6rem;
+  }
+
+  .contain-items {
+    padding: 0;
+  }
+
+  .content-image {
+    width: 100%;
+  }
+
+  /* --------------Feature Row------------- */
+  .features {
+    padding: 1.6rem;
+    flex-direction: column;
+  }
+
+  .feature-p {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  /* -------------Contact------------ */
+
+  .form-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .email-wrapper,
+  .text-wrapper,
+  .names,
+  .btn-wrapper {
+    width: 80%;
+  }
+
+  /* -----------------Footer---------- */
+  .footer {
+    flex-direction: column;
+    padding: 3.2rem 1.6rem;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 2rem;
+  }
+
+  .btns {
+    width: 100%;
+    gap: 1.6rem;
+    padding-top: 2rem;
+  }
+
+  .icons {
+    align-items: flex-start;
+  }
+
+  .icon1 {
+    padding-left: 0;
+  }
+
+  /* -----------------Menu Toggle ---------- */
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin-right: 3rem;
+    right: 1rem;
+    width: 2.5rem;
+    z-index: 888;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 0.3rem;
+    background-color: #0cf;
+    z-index: 888;
+  }
+
+  .navMobile {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #36bfe1;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(2rem);
+    mix-blend-mode: multiply;
+    z-index: 777;
+    display: none;
+  }
+
+  .navMobile.open {
+    display: block;
+  }
+
+  .navMobile ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 9rem 5rem;
+    gap: 3.5rem;
+  }
+
+  .navMobile ul li a {
+    color: rgba(255, 255, 255, 0.973);
+    font-size: 30px;
+  }
+
+  .hamburger.active .line {
+    background-color: #ffff;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .line:nth-child(1) {
+    transform: translateY(0.8rem) rotate(45deg);
+  }
+
+  .hamburger.active .line:nth-child(3) {
+    transform: translateY(-0.8rem) rotate(-45deg);
+  }
+}
