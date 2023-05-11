@@ -439,7 +439,6 @@ h3 {
   align-items: flex-start;
   padding: 6.4rem 12rem;
   gap: 5rem;
-
 }
 
 .icons {
@@ -510,6 +509,7 @@ h3 {
     padding: 2rem 0 2rem 0;
     gap: 2rem;
   }
+
   .company-logo-container {
     gap: 0.8rem;
   }
@@ -523,13 +523,15 @@ h3 {
     font-size: 1rem;
   }
 
-  .container1, .footer {
+  .container1,
+  .footer {
     gap: 2rem;
   }
 
   .feature {
     padding: 0;
   }
+
   .feature-p {
     font-size: 1.5rem;
   }
@@ -545,7 +547,8 @@ h3 {
   .btn-wrapper {
     width: 60%;
   }
-  .btns{
+
+  .btns {
     align-self: center;
   }
 }
