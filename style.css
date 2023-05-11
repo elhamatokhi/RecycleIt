@@ -34,9 +34,10 @@ nav {
   font-size: 1.8rem;
 }
 
-.h1head{
+.h1head {
   color: lightskyblue;
 }
+
 .navMobile {
   display: none;
 }
