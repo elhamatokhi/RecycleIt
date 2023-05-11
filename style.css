@@ -327,17 +327,20 @@ span {
   padding: 1.6rem;
   gap: 2rem;
 }
+
 .headspan {
   width: 10rem;
   height: 0.5rem;
   background-color: lightblue;
 }
+
 .heads p {
   font-size: 1.8rem;
   padding-top: 0.8rem;
   line-height: 2.4rem;
   text-align: center;
 }
+
 .features {
   display: flex;
   gap: 2rem;
