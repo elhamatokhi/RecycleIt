@@ -1,6 +1,6 @@
 # CODE-Challenge
 
-![screencapture-elhamatokhi-github-io-portfolio-micro-2023-01-27-19_06_09](Images\screencapture-elhamatokhi-github-io-CODE-Challenge-2023-05-11-15_25_04.png)
+![screencapture-elhamatokhi-github-io-CODE-Challenge-2023-05-11-15_25_04](Images/screencapture-elhamatokhi-github-io-CODE-Challenge-2023-05-11-15_25_04.png)
 
 ## Description
 
