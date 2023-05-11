@@ -1,10 +1,10 @@
 # CODE-Challenge
 
-![screencapture-elhamatokhi-github-io-CODE-Challenge-2023-05-11-15_25_04](Images/screencapture-elhamatokhi-github-io-CODE-Challenge-2023-05-11-15_25_04.png)
+![screencapture-127-0-0-1-5501-index-html-2023-05-11-17_22_25](Images/screencapture-127-0-0-1-5501-index-html-2023-05-11-17_22_25.png)
 
 ## Description
 
-<p>At Recycle It, we're dedicated to reducing waste and helping to create a more sustainable future. As a recycling company, we're focused on collecting and processing materials that would otherwise end up in landfills, and turning them into usable resources. By recycling materials like carton and paper, we're able to conserve natural resources and reduce our impact on the environment. Our mission is to make recycling accessible and easy for everyone, and we're always looking for new ways to innovate and improve our processes. Join us in our efforts to create a cleaner, greener planet by partnering with Recycle It today
+<p>This is CODE-Challenge that describes a recyclying company which is dedicated to reducing waste and helping to create a more sustainable future. By recycling materials like carton and paper, they are able to conserve natural resources and reduce our impact on the environment. Join us in our efforts to create a cleaner, greener planet by partnering with Recycle It today
 
 ## 🖥️ Live Demo
 
