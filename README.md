@@ -67,8 +67,7 @@ npx eslint .
 👤 **Author1**
 
 - GitHub:[@elhamatokhi](https://github.com/elhamatokhi)
--
-
+- 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
